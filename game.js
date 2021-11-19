@@ -1,5 +1,5 @@
 var config = {
-  type: Phaser.CANVAS,
+  type: Phaser.WEBGL,
   width: window.innerWidth * window.devicePixelRatio / 2,
   height: 250,
   scene: [preloadGame, mainMenu, playGame, gameOver],
